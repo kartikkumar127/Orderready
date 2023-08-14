@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+        <title>Order Ready | buy online, pick-up in store</title>
+        <script src="index.js" async></script>
+        
+  </script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    </head>
+    <body>
+        <nav>
+            
+            <h2><b>Order Ready</b></h2>
+            <ul id="nav-elements">
+                
+                <a href="home.html"><li class="fas fa-home"></li></a>
+                <a href="opt.html"><li class="fas fa-user"></li></a>
+                
+                <a href="bot.html"><li class="fas fa-comment-dots"></li></a>
+                <span class="cart"><li class="fas fa-shopping-cart" onclick="carts()"></li></span>
+                <section>
+                    <li class="fas fa-search"></li>
+                <input type="text" name="" id="find" placeholder="search here..." onkeyup="search()">
+                </section>
+            </ul>
+        </nav>
+        
+      
+        <div class="row mx-auto container-fluid justify-content-center">
+           <div class="product text-center col-lg-9 col-md-4 col-12 shadow-lg p-3 mb-5 bg-black rounded">
+                <div class="products"><h5 class="p-name" id="1"><i>SUPRA</i></h5>
+                <img class="img-fluid mb-3 img-resize" src="https://media1.giphy.com/media/uFVhURn8gJS4hA7zWm/200w.webp?cid=ecf05e47e0qyaky56ior4wesfe7hj9eu3cbgzkwk2eu3sifa&ep=v1_gifs_search&rid=200w.webp&ct=g.gif" alt="CONFECTIONARY">
+               <button class="add" onclick="this.style.color='Green'"><i class = "fas fa-shopping-cart"></i></button>
+                <a href="Order.html"><button class="bn"><i class="fas fa-shopping-bag"></i></button></a>
+                <button class="bn" onclick="this.style.color='Red'"><i class="fas fa-heart"></i></button>
+                <br>
+                <h4 class="p-price">>>BUY NOW</h4>             
+            </div></div>
+           <div class="product text-center col-lg-9 col-md-4 col-12 shadow-lg p-3 mb-5 bg-black rounded">
+                <div class="products"><h5 class="p-name" id="2"><i>BMW GT</i></h5>
+                <img class="img-fluid mb-3 img-resize " src="https://media1.giphy.com/media/Lpr3nNTWuGXI6Yte11/200w.webp?cid=ecf05e472i5zvso2s3mux3u9tjikgpoa5w48h3iui9i9miyv&ep=v1_gifs_search&rid=200w.webp&ct=g.gif" alt="">
+                <button class="add" onclick="carts()" ><i class="fas fa-shopping-cart"></i></button>
+                <a href="Order.html"><button class="bn"><i class="fas fa-shopping-bag"></i></button></a>
+               <button class="bn" onclick="this.style.color='Red' "><i class="fas fa-heart"></i></button>
+                
+                <h4 class="p-price">>>BUY NOW</h4>             
+            </div></div>
+           <div class="product text-center col-lg-9 col-md-4 col-12 shadow-lg p-3 mb-5 bg-black rounded">
+                <div class="products"><h5 class="p-name" id="3">Frame</h5>
+                <img class="img-fluid mb-3 img-resize " src="C:\FSWD\WEB\New folder\61X7Q0AnP7L._SL1500_.jpg" alt="">
+                <button class="bn" onclick="this.style.color='Green'" ><i class="fas fa-shopping-cart"></i></button>
+                <a href="Order.html"><button class="bn"><i class="fas fa-shopping-bag"></i></button></a>
+                <button class="bn" onclick="this.style.color='Red' "><i class="fas fa-heart"></i></button>
+                
+                <h4 class="p-price">>>BUY NOW</h4>             
+            </div></div>
+           <div class="product text-center col-lg-9 col-md-4 col-12 shadow-lg p-3 mb-5 bg-black rounded">
+                <div class="products"><h5 class="p-name" id="4"><i>KOENIGSEGG</i></h5>
+                <img class="img-fluid mb-3 img-resize " src="https://media3.giphy.com/media/aZYwSGi9nkw9y/200w.webp?cid=ecf05e47ni7g8us7va6k1yiergi7ndohdn8jyawzstii93uh&ep=v1_gifs_search&rid=200w.webp&ct=g.gif" alt="">
+                <button class="bn" onclick="this.style.color='Green'" ><i class="fas fa-shopping-cart"></i></button>
+                <a href="Order.html"><button class="bn"><i class="fas fa-shopping-bag"></i></button></a>
+                <button class="bn" onclick="this.style.color='Red' "><i class="fas fa-heart"></i></button>
+                
+                <h4 class="p-price">>>BUY NOW</h4>             
+            </div></div>
+           <div class="product text-center col-lg-9 col-md-4 col-12 shadow-lg p-3 mb-5 bg-black rounded">
+                <div class="products"><h5 class="p-name" id="5">Bookmarks</h5>
+                <img class="img-fluid mb-3 img-resize " src="C:\FSWD\WEB\New folder\81Il86q1cBL._SL1500_.jpg" alt="">
+                <button class="bn" onclick="this.style.color='Green'" ><i class="fas fa-shopping-cart"></i></button>
+                <a href="Order.html"><button class="bn"><i class="fas fa-shopping-bag"></i></button></a>
+                <button class="bn" onclick="this.style.color='Red' "><i class="fas fa-heart"></i></button>
+                
+                <h4 class="p-price">>>BUY NOW</h4>             
+            </div></div>
+           <div class="product text-center col-lg-9 col-md-4 col-12 shadow-lg p-3 mb-5 bg-black rounded">
+                <div class="products"><h5 class="p-name" id="6">Resin Clock</h5>
+                <img class="img-fluid mb-3 img-resize " src="C:\FSWD\WEB\New folder\711MTZOHgbL._SL1080_.jpg" alt="">
+                <button class="bn" onclick="this.style.color='Green'" ><i class="fas fa-shopping-cart"></i></button>
+                <a href="Order.html"><button class="bn"><i class="fas fa-shopping-bag"></i></button></a>
+                <button class="bn" onclick="this.style.color='Red' "><i class="fas fa-heart"></i></button>
+                
+                <h4 class="p-price">>>BUY NOW</h4>             
+            </div></div>
+           <div class="product text-center col-lg-9 col-md-4 col-12 shadow-lg p-3 mb-5 bg-black rounded">
+                <div class="products"><h5 class="p-name" id="7">Wall Hanging</h5>
+                <img class="img-fluid mb-3 img-resize " src="C:\FSWD\WEB\New folder\2164c6048cd20323b925aa3222bdbb8d.jpg" alt="">
+                <button class="bn" onclick="this.style.color='Green'" ><i class="fas fa-shopping-cart"></i></button>
+                <a href="Order.html"><button class="bn"><i class="fas fa-shopping-bag"></i></button></a>
+                <button class="bn" onclick="this.style.color='Red' "><i class="fas fa-heart"></i></button>
+                
+                <h4 class="p-price">>>BUY NOW</h4>             
+            </div></div>
+           <div class="product text-center col-lg-9 col-md-4 col-12 shadow-lg p-3 mb-5 bg-black rounded">
+                <div class="products"><h5 class="p-name" id="8">Word LOVE</h5>
+                <img class="img-fluid mb-3 img-resize " src="C:\FSWD\WEB\New folder\684530bd-1044-443e-ada2-ce7d3dfc4d2b.9012b5bf87705e258a804e155a8d3243.jpeg" alt="">
+                <button class="add" onclick="this.style.color='Green'" ><i class="fas fa-shopping-cart"></i></button>
+                <a href="Order.html"><button class="bn"><i class="fas fa-shopping-bag"></i></button></a>
+                <button class="bn" onclick="this.style.color='Red' "><i class="fas fa-heart"></i></button>
+                
+                <h4 class="p-price">>>BUY NOW</h4>             
+            </div></div>
+           <div class="product text-center col-lg-9 col-md-4 col-12 shadow-lg p-3 mb-5 bg-black rounded">
+                <div class="products"><h5 class="p-name" id="9"><i>MUSTANG</i></h5>
+                <img class="img-fluid mb-3 img-resize " src="https://media0.giphy.com/media/vZGgXV6JsS9jyFAjSd/200w.webp?cid=ecf05e47wug1kkcbr2bi8akratl1zv7d07mmbz4uisy3b3ga&ep=v1_gifs_search&rid=200w.webp&ct=g.gif" alt="">
+                <button class="add" onclick="this.style.color='Green'" ><i class="fas fa-shopping-cart"></i></button>
+                <a href="Order.html"><button class="bn"><i class="fas fa-shopping-bag"></i></button></a>
+                <button class="bn" onclick="this.style.color='Red' "><i class="fas fa-heart"></i></button>
+
+                <h4 class="p-price">>>BUY NOW</h4>             
+            </div></div>
+        </div>
+        <div class="cart-field">
+            <button class="bn" onclick="deleteitem()"><i class="Far">delete</i></button>
+
+        </div>
+
+        <div id="footer">
+            <p><u><i>All Rights Reserved by</i></u></p>
+            <p>Order Ready | Official Website</p>
+        </div>
+    </body>
+</html>

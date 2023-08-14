@@ -1,0 +1,40 @@
+body{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    background-image: url(https://media2.giphy.com/media/3o6ZtknUFK7XXOQvle/giphy.gif?cid=ecf05e47hok2upeersyg8cx7v3ubnwlu01xglef99j0zb1f5&ep=v1_gifs_related&rid=giphy.gif&ct=g.gif);
+    background-size: 100%;
+}
+.progress{
+        position: relative;
+        height: 10px;
+        width: 1110%;
+        border: 10px solid #f4a261;
+        border-radius: 15px;
+}
+.progress .color{
+        position: absolute;
+        background-color: #ffffff;
+        width: 0px;
+        height: 10px;
+        border-radius: 15px;
+        animation: progres 4s infinite linear;    
+}    
+@keyframes progres{
+    0%{
+      width: 0%;
+    }
+    25%{
+        width: 50%;
+    }
+    50%{
+        width: 75%;
+    }
+    75%{
+        width: 85%;
+    }
+    100%{
+        width: 100%;
+    }
+}

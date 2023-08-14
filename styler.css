@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+
+}
+.col-md-7{
+    background-image: url(https://media2.giphy.com/media/3o6ZtknUFK7XXOQvle/giphy.gif?cid=ecf05e47hok2upeersyg8cx7v3ubnwlu01xglef99j0zb1f5&ep=v1_gifs_related&rid=giphy.gif&ct=g.gif);
+    background-size: 800px 500px;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    padding: 20px !important;
+    margin-top: 100px !important;
+    max-height: 70% !important;
+}
+input{
+    margin-top: 20px !important;
+}
+
+.success{
+    border: 3px solid rgb(6, 184, 6) !important;
+}
+button{
+    border-radius: 5px;
+    border-width: 2px;
+    color: white !important;
+    background-color: rgb(49, 18, 78) !important;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.error{
+    border: 3px solid red !important;
+}
+small{
+    color: red;
+    font-weight: medium;
+    margin: 5px;
+    text-align: left !important;
+}
+textarea{
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgb(214, 212, 212);
+}
+i{
+    color:white !important;
+}
