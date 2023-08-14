@@ -87,7 +87,6 @@ li{
     padding-top: 20px !important;
 }
 i{
-    color: white;
     list-style-type: none;
     display: inline;
     margin-left: 40px !important;
@@ -96,7 +95,7 @@ i{
     padding-top: 20px !important;
 }
 #nav-elements{
-    
+    color: white;
     text-align: center;
 }
 #title{
