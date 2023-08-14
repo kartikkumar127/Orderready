@@ -117,8 +117,8 @@ h2, h1{
     text-align: center;
 }
 h4{
-    text-emphasis-color: black !important;
-    color: black;
+    text-emphasis-color: white!important;
+    color: white;
     font-size: 30px;
     margin-top: 10px;
 }
