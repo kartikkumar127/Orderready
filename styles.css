@@ -39,8 +39,8 @@ ul {
     z-index:5;
 }
 h5{
-    text-emphasis-color: black !important;
-    color: black;
+    text-emphasis-color: white !important;
+    color: white;
     font-size: 40px;
 }
 
@@ -87,6 +87,7 @@ li{
     padding-top: 20px !important;
 }
 i{
+    color: white;
     list-style-type: none;
     display: inline;
     margin-left: 40px !important;
